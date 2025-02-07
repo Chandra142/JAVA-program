@@ -1,4 +1,4 @@
-// To find out first repeated number in array
+
 import java.util.*;
 class ram{
     public static void main(String args[]){
