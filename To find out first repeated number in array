@@ -28,3 +28,4 @@ class ram{
             System.out.print("No repeated number are found");
         }
     }
+}
