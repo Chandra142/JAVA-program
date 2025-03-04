@@ -1,0 +1,29 @@
+ // METHOD OVERLOADING 
+import java.util.*;
+class Student{
+    void marks(int phy,int chem){
+        
+        System.out.println("Sum_Marks: "+(phy+chem));
+    }
+    void marks(double phy,double chem){
+        
+        System.out.println("Sum_Marks: "+(phy+chem));
+    }
+    void marks(int phy,int chem,int sci){
+        
+        System.out.println("Sum_Marks: "+(phy+chem+sci));
+    }
+    void marks(int phy,double chem,double sci){
+        
+        System.out.println("Sum_Marks: "+(phy+chem+sci));
+    }
+}
+public class Main{
+    public static void main(String args[]){
+        Student ob= new Student();
+        ob.marks(20,30);
+        ob.marks(20.1,30.1);
+        ob.marks(30,20,50);
+        ob.marks(30,39.9,30.1);
+    }
+}
