@@ -1,3 +1,6 @@
+//WAP using buffer reader class and take the input from the user for displaying name and age of a student; 
+
+
 import java.io.*;
 class Main{
     public static void main(String args[]){
