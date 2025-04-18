@@ -1,4 +1,4 @@
-//5. WAP for bounded type in GENRIC class to do the addition of two numbers ? 
+//5. WAP for bounded type in GENRIC class to do the addition and multiplicion of two numbers ? 
 
 class calculator < T extends Number>{
     private T num1;
@@ -12,10 +12,14 @@ class calculator < T extends Number>{
     public double add(){
         return num1.doubleValue() + num2.doubleValue();
     }
+    public double multiplication(){
+        return num1.doubleValue() * num2.doubleValue();
+    }
 }
 public class Main{
     public static void main(String[] args){
         calculator <Integer>intCal = new calculator<>(10,20);
         System.out.println("Result is: "+ intCal.add());
+        System.out.println("Result is: "+ intCal.multiplication());
     }
 }
