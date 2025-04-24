@@ -1,3 +1,4 @@
+//WAP to display six country name along with its STD code using genric class ? 
 
 import java.util.ArrayList;
 // import java.util.*;
