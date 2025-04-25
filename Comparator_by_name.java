@@ -27,7 +27,8 @@ class Main{
         }
     };
     TreeSet <Student>students = new TreeSet<>(nameComparator);
-    students.add(new Student("Aarav",84));
+    // TreeSet <Student>students = new TreeSet<>(nameComparator.reversed());  used for reverse oeder ; 
+     students.add(new Student("Aarav",84));
     students.add(new Student("Ram",80));
     students.add(new Student("Afxal",86));
     
